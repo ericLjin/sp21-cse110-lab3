@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 2</title>
+        <link rel="icon" href="media/ucsd-logo.svg">
+    </head>
+    <body>
+        <header>
+            CSE 110 Lab 2
+        </header>
+        <main>
+            <hr>
+            <h1>Daily Life in Quarantine</h1>
+
+            <nav>
+                <a href="#day3">April 8th</a> |
+                <a href="#day2">April 7th</a> |
+                <a href="#day1">April 6th</a>
+            </nav>
+
+            <section id = "day3">
+                <h3>April 8th 2021</h3>
+
+                <div>
+                    <p>Here's what I had for breakfast</p>
+                </div>
+                <ul>
+                    <li>Bacon</li>
+                    <li>Eggs</li>
+                    <li>Toast</li>
+                    <li>Coffee</li>
+                </ul>
+
+                <video src="media/vine.mp4" controls>Funny vine</video>
+            </section>
+
+            <section id = "day2">
+                <h3>April 7th 2021</h3>
+                The weather was <i>really</i> hot today.
+
+                <p>I was browsing the internet and I found a movie based off of Zoom Breakout rooms</p>
+                <img src="https://i1.wp.com/teaser-trailer.com/wp-content/uploads/A-Quiet-Place-movie-2018-Emily-Blunt.jpg?ssl=1" width="270" height="180">
+            </section>
+
+            <section id = "day1">
+                <h3>April 6th 2021</h3>
+
+                <details open>
+                    <summary><b>To Do List: </b></summary>
+                    <ol>
+                      <li><strong>URGENT:</strong> Finish English Essay</li>
+                      <li>Schedule Meeting</li>
+                      <li>Cook Dinner</li>
+                      <li>Respond to emails</li>
+                      <li>Go for a run <span>(<em>Only if theres time</em>)</span></li>
+                    </ol>
+                </details>
+
+                Never too early / late for Christmas! Heres a nice Christmas song by John Denver! <br>
+                <audio controls src="media/rudolph.mp3"> </audio>
+            </section>
+            <br>
+            <hr>
+
+            <h2>Submit your own blog post!</h2>
+            <form class="newJournal" action="index.html" method="post">
+                <fieldset>
+                    <legend>Info: </legend>
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" name="author">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+
+                    <label for="country">Country:</label>
+                    <input list="country" name="country">
+
+                    <datalist id="country">
+                        <option value="USA">
+                        <option value="Canada">
+                        <option value="Mexico">
+                        <option value="UK">
+                        <option value="Germany">
+                        <option value="China">
+                        <option value="Japan">
+                        <option value="Australia">
+                    </datalist> <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Body:</legend>
+                    <label for="browser">Choose subject:</label>
+                    <select name="subject">
+                        <option value="Arts and Culture">Arts and Culture</option>
+                        <option value="Science and Technology">Science and Technology</option>
+                        <option value="Politics">Politics</option>
+                        <option value="Economy and Finance">Economy and Finance</option>
+                        <option value="Other">Other</option>
+                    </select> <br>
+
+                    <textarea name="body" rows="8" cols="80" placeholder="body"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Submit:</legend>
+                    Visibility: <br>
+                    <label><input type="radio" name="visibility" value="share_everyone">Public / Everyone </label><br>
+                    <label><input type="radio" name="visibility" value="share_friends">Friends</label> <br>
+                    <label><input type="radio" name="visibility" value="share_private">Private </label> <br>
+
+                    <button type="submit" name="button">Publish</button>
+                    <label><input type="checkbox" name="notif" value="notif">Send a notification?</label> <br>
+                </fieldset>
+            </form>
+            <hr>
+        </main>
+        <footer>
+            Eric Jin 2021
+        </footer>
+    </body>
+</html>
