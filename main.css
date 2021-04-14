@@ -1,0 +1,29 @@
+body
+{
+    background-color: #FAD7A0;
+    font-family: 'Lato', sans-serif;
+}
+
+#mainHeader
+{
+    text-align: center;
+}
+
+a
+{
+    color: purple;
+    padding: 0px 10px 0px 10px;
+}
+
+a, nav
+{
+    margin: auto;
+    text-align: center;
+}
+
+.header_footer
+{
+    height: 20px;
+    width: 120px;
+    color: rgb(52,73,94);
+}
