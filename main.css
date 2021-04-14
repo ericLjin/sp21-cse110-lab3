@@ -1,24 +1,85 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 body
 {
     background-color: #FAD7A0;
-    font-family: 'Lato', sans-serif;
 }
 
 #mainHeader
 {
     text-align: center;
 }
-
-a
+/* FORM EDITS */
+#publish /* publish button + hover */
 {
+    margin: .2em .2em;
+    background-color: hsla(204, 8%, 76%, 1);
+    height: 2em;
+    width: 4.5em;
+    border-color: black;
+    border-radius: 5px; /* rounded corners */
+    border-style: none;
+    text-decoration: none;
+}
+
+#publish:hover
+{
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+#publish:active
+{
+    background-color: #5D6D7E;
+}
+
+#subject
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label[target="text"]
+{
+    padding-left: 15px;
+}
+
+legend ~ label
+{
+    margin: 10px;
+    color: #1A5276;
+}
+
+fieldset textarea
+{
+    background-color: #E5E8E8;
+}
+
+/* Header and footer */
+nav
+{
+    text-align: center;
+}
+
+a:visited
+{
+    color: #FAD7A0;
+}
+
+nav > a
+{
+    margin: auto;
+    text-align: center;
     color: purple;
     padding: 0px 10px 0px 10px;
 }
 
-a, nav
+header, footer
 {
-    margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .header_footer

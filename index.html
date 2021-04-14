@@ -75,7 +75,7 @@
                     <label for="date">Date:</label>
                     <input type="date" id="date" name="date">
 
-                    Country:
+                    <label> Country: </label>
                     <input list="countries">
                     <datalist id="countries">
                         <option value="USA">
@@ -106,12 +106,12 @@
                 <fieldset>
                     <legend>Submit:</legend>
                     Visibility: <br>
-                    <label><input type="radio" name="visibility" value="share_everyone">Public / Everyone </label><br>
-                    <label><input type="radio" name="visibility" value="share_friends">Friends</label> <br>
-                    <label><input type="radio" name="visibility" value="share_private">Private </label> <br>
+                    <label target="text"><input type="radio" name="visibility" value="share_everyone">Public / Everyone </label><br>
+                    <label target="text"><input type="radio" name="visibility" value="share_friends">Friends</label> <br>
+                    <label target="text"><input type="radio" name="visibility" value="share_private">Private </label> <br>
 
-                    <button type="submit" name="button">Publish</button>
-                    <label><input type="checkbox" name="notif" value="notif">Send a notification?</label> <br>
+                    <button type="submit" name="button" id = "publish">Publish</button>
+                    <label><input type="checkbox" name="notif" value="notif" id="notif">Send a notification?</label> <br>
                 </fieldset>
             </form>
             <hr>
