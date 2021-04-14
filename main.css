@@ -2,6 +2,15 @@
     font-family: 'Lato', sans-serif;
 }
 
+@media only screen and (max-width: 768px)
+{
+    body
+    {
+        max-width: 768px;
+        background-color: purple;
+    }
+}
+
 body
 {
     background-color: #FAD7A0;
