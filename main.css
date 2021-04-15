@@ -25,6 +25,11 @@ body
 
 /* Journal 2 (April 7th)*/
 
+img
+{
+    position: relative;
+}
+
 /* Journal 1 (April 6th)*/
 
 h3 + div
