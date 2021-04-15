@@ -23,6 +23,32 @@ body
 
 /* Journal 3 (April 8th)*/
 
+#day3GRID
+{
+    display: grid;
+    grid-template-columns: 130px auto 50px 310px;
+    grid-template-rows: auto 50px;
+}
+
+#gridItem1
+{
+    grid-row-start:1;
+    grid-column-start: 1;
+}
+
+#gridItem2
+{
+    grid-row-start:1;
+    grid-column-start: 2;
+}
+
+#gridItem3 /* video */
+{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
 /* Journal 2 (April 7th)*/
 
 img
