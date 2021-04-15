@@ -1,7 +1,6 @@
 April 14th
 
-Set up lab, get standup notes working, get github repo set up, set up issues
-
+Set up lab, get standup notes working, get github repo set up, set up issues.
 
 April 15th
 
