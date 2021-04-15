@@ -20,6 +20,34 @@ body
 {
     text-align: center;
 }
+
+/* Journal 3 (April 8th)*/
+
+/* Journal 2 (April 7th)*/
+
+/* Journal 1 (April 6th)*/
+
+h3 + div
+{
+    color: red;
+    position: static;
+
+}
+
+#flx
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.imHiding
+{
+    display: none;
+}
+
+
 /* FORM EDITS */
 #publish /* publish button + hover */
 {
